@@ -1,0 +1,26 @@
+{
+  "name": "typescript-export-namespace-class",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/typescript-export-namespace-class.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/typescript-export-namespace-class",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/typescript-export-namespace-class/issues"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc src/*.ts --outDir lib/ --target ES6"
+  },
+  "description": "",
+  "devDependencies": {
+    "typescript": "^1.7.3"
+  }
+}
